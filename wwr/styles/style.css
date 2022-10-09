@@ -1,11 +1,11 @@
  /* html selector */
 body {
     background-color: fcfbfb;
-    color: #001845;
+    color: #000000;
 }
 
 header {
-    background-color: #979dac;
+    background-color: #6f7364;
 }
 
 footer {
@@ -17,7 +17,7 @@ footer p {
 }
 
 footer a {
-    color: rgb(194, 152, 98);
+    color: black;
     text-decoration: none;
 }
   
@@ -30,11 +30,11 @@ footer p a:hover {
 }
 
 main section {
-    text-align: center;
+    text-align: center
 }
 
 nav a {
-    color: rgb(253, 244, 233);
+    color: white;
     text-align: center;
     text-decoration: none;
 
@@ -42,7 +42,7 @@ nav a {
 
 nav a:hover {
     background-color: black;
-    color: rgb(253, 244, 233);
+    color: black;
 }
 
 h4 {
@@ -51,8 +51,8 @@ h4 {
 
  /* class selectors */
  .book, .join {
-    background-color: #d9c2a4;
-    color: #fcfbfb;
+    background-color: fcfbfb;
+    color: black;
     text-decoration: none;
  }
  .book:hover, .join.hover {
@@ -91,7 +91,8 @@ h4 {
 
  /* id selector */
  #background {
-    color: #002855;
+    background-color: bisque;
+    color: black;
     height: 725px;
 }
 
