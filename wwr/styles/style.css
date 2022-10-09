@@ -1,0 +1,13 @@
+ /* html selector */
+
+
+ /* class selectors */
+
+
+ /* id selector */
+ #content{
+    border: 1px solid black
+    max-width: 1600px;
+ }
+
+
