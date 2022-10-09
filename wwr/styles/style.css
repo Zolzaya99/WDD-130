@@ -1,6 +1,6 @@
  /* html selector */
 body {
-    background-color: #fcfbfb;
+    background-color: white;
 }
 
 header {
@@ -8,8 +8,8 @@ header {
 }
 
 footer {
-    background-color: darkcyan;
-    color: azure;
+    background-color: rgb(93, 136, 136);
+    color: rgb(27, 42, 42);
 }
 
 footer p {
@@ -92,7 +92,7 @@ h4 {
 
  /* id selector */
  #background {
-    color: darksalmon;
+    color: rgb(34, 19, 14);
     height: 725px;
 }
 
