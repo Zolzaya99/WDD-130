@@ -2,8 +2,9 @@
  
  /* html selector */
 body {
-    background-color: fcfbfb;
+    background-color: #fcfbfb;
     color: #000000;
+    font-family: 'Fuzzy Bubbles', sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -28,7 +29,6 @@ footer .social img {
 
 footer p {
     font-size: 1.2em; 
-
 }
 
 footer a {
@@ -80,7 +80,7 @@ p {
 
  /* class selectors */
  .book, .join {
-    background-color: fcfbfb;
+    background-color: #fcfbfb;
     color: black;
     text-decoration: none;
     font-size: 18px;
@@ -133,7 +133,8 @@ p {
 .msg {
     background-color: #ffb703;
     padding: 35px;
-    height: 1.5em;
+    line-height: 1.5em;
+    margin-top: 150px;
 }
 
 .msg h2 {
@@ -156,8 +157,8 @@ p {
 }
 
  #content {
-    border: 1px solid black
-    margin 0 auto;
+    border: 1px solid black;
+    margin: 0 auto;
     max-width: 1600px;
  }
 
