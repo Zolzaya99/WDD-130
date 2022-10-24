@@ -66,7 +66,8 @@
   /* This is the parent of the activity 3 boxes. */
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 40px;
+  grid-column-gap: 165px;
+  justify-items: center;
 }
 .red3 {
   width: 100%; 
@@ -122,7 +123,7 @@
 .content5 {
   /* This is the parent of the activity 5 boxes. */
   height: 400px;
-  font-size: 10px ;
+  font-size: 12px ;
 }
 .red5 { 
   width: 100%; 
