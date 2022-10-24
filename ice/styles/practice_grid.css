@@ -1,0 +1,9 @@
+.grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+article.featured {
+    grid-row: span 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
