@@ -1,0 +1,39 @@
+/* html selectors */
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+
+/* class selectors */
+.active {
+    background-color: pink;
+}
+
+.images {
+    width: 50px;
+}
+
+.portfolio-wedding {
+    width: 10px;
+}
+
+/* id selectors */
+#logo link {
+    width: 20px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
