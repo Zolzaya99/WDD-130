@@ -175,6 +175,8 @@ footer {
     color: aliceblue;
     font-family: Kalam, sans-serif;
     margin-top: -200px;
+    border-inline: 2px white;
+    padding: 20px;
 }
 
 .portfolio-wedding {
