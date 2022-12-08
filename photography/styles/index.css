@@ -5,6 +5,9 @@ a {
     text-decoration: none;
     text-align: center;
 }
+ul {
+    padding-inline-start: 0;
+}
 
 body {
     padding: 0;
@@ -29,11 +32,18 @@ header {
     line-height: 10px;
 }
 
-ul li {
-    list-style: none;
+label {
+    text-align: center;
 }
 
+ul li {
+    list-style: none;
+    text-align: center ;
+}
 
+li {
+    text-align: center;
+}
 nav {
 display: flex;
 justify-content: space-around;
@@ -98,6 +108,15 @@ footer {
     align-items: center;
     align-content: center;
 }
+
+.center {
+    text-align: center;
+}
+
+.center ul {
+    text-align: left;
+}
+
 
 .aboutme {
     width: 300px;
@@ -176,7 +195,11 @@ footer {
 
 /* id selectors */
 #logo-link {
-    width: 20px;
+    width: 80px;
+}
+
+#logo-link2 {
+    width: 80px;
 }
 
 #hero {
@@ -262,6 +285,10 @@ footer {
     align-items: center;
     align-content: center;
     padding: 30px;
+}
+
+#msg {
+    text-align: center;
 }
 
 #para1 {
