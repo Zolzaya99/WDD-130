@@ -120,7 +120,7 @@ footer {
 .aboutme {
     width: 300px;
     display: grid;
-    grid-template-columns: 2 unit;
+    grid-template-columns: 2;
     height: 400px;
     margin-top: 50px;
     object-fit: cover;
