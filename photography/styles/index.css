@@ -51,7 +51,7 @@ text-align: center;
 nav a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    text-justify: center;
+    text-align: center;
     font-family: Quicksand, sans-serif;
     text-transform: uppercase;
     line-height: 5.5;
@@ -120,7 +120,7 @@ footer {
 .aboutme {
     width: 300px;
     display: grid;
-    grid-template-columns: 2;
+    grid-template-columns: 2 unit;
     height: 400px;
     margin-top: 50px;
     object-fit: cover;
