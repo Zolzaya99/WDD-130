@@ -18,12 +18,12 @@
             <a href="contact.html">Contact</a>
         </nav>
     </header>
-    <main>
+    <main id="main_contact">
         <div id="feedback">
             <form action="/my-handling-form-page" method="post">
                 <ul>
                     <li>
-                        <label for="name">Email Address *</label>
+                        <label id="email_contact" for="name">Email Address *</label>
                         <input placeholder="me@email.com" type="text" id="name" name="user_email" />
                     </li>
                     <li>
@@ -50,7 +50,7 @@
         </section>
         <ul>
             <li>
-                <label for="msg">Tell us about your event</label>
+                <label id="tell_event" for="msg">Tell us about your event</label>
                 <br>
                 <textarea id="msg" name="user_message_about_event"></textarea>
             </li>
@@ -85,7 +85,7 @@
         </ul>
         <ul>
             <li>
-                <label for="msg">Is there anything else you want us to know?</label>
+                <label id="anything_contact" for="msg">Is there anything else you want us to know?</label>
                 <br>
                 <textarea id="msg" name="user_message_about_more"></textarea>
             </li>

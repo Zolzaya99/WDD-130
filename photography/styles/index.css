@@ -5,9 +5,6 @@ a {
     text-decoration: none;
     text-align: center;
 }
-ul {
-    padding-inline-start: 0;
-}
 
 body {
     padding: 0;
@@ -17,7 +14,9 @@ body {
 
 
 ul {
-    text-align: center;
+    width: 408px;
+    margin: 0 auto;
+    padding-inline-start: 0;
 }
 
 form {
@@ -38,13 +37,10 @@ label {
 
 ul li {
     list-style: none;
-    text-align: center ;
-    
+    margin-top: 5px;
 }
 
-li {
-    text-align: center;
-}
+
 nav {
 display: flex;
 justify-content: space-around;
@@ -97,6 +93,11 @@ footer {
 
 
 /* class selectors */
+
+.button {
+    margin-bottom: 13px;
+}
+
 .logo {
     width: 100%;
 }
@@ -290,8 +291,13 @@ footer {
     padding: 30px;
 }
 
+#email_contact {
+    margin-top: 10px;
+}
+
 #msg {
     text-align: center;
+    width: 308px;
 }
 
 #para1 {
@@ -373,11 +379,12 @@ footer {
 }
 
 #contact_img img {
-    width: 40%;
+    width: 408px;
 }
 
 #contact_img2 img {
-    width: 40%;
+    margin-top: 6px;
+    width: 408px;
 }
 
 #portfolio_a {
@@ -396,7 +403,7 @@ footer {
 #feedback li {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 408px;
     margin: 0 auto;
 }
 
@@ -413,4 +420,14 @@ footer {
     outline-width: 0;
 }
 
+#tell_event {
+    text-align: center;
+}
     
+#main_contact ul {
+    width: 408px;
+}
+
+#anything_contact {
+    margin-top: 50px;
+}
